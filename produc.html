@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+   <head>
+    <title>Tipos Cafe</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+	<link rel="stylesheet" href="css/producto.css">
+
+	</head>
+    <body>
+	
+	<section id="nosotros">
+	   <div id="info">
+	    <h2>Tipos de Cafe</h2>
+		<nav id="btn-prod">
+		<ul>
+		  <li>
+		    <a href="#produ" onclick="mostrar('cafeUno'), ocultar('cafeDos'), ocultar('cafeTres') , ocultar('cafeCuatro')">CAFÉ ARABIGO</a>
+		  </li>
+		  <li>
+		    <a href="#produ" onclick="mostrar('cafeDos'), ocultar('cafeUno'), ocultar('cafeTres') , ocultar('cafeCuatro')">CAFÉ ROBUSTA</a>
+		  </li>
+		  <li>
+		    <a href="#produ" onclick="mostrar('cafeTres'), ocultar('cafeUno'), ocultar('cafeDos') , ocultar('cafeCuatro')">CAFÉ LIBÉRICA</a>
+		  </li>
+		  <li>
+		    <a href="#produ" onclick="mostrar('cafeCuatro'), ocultar('cafeUno'), ocultar('cafeTres') , ocultar('cafeDos')">CAFÉ EXCELSA</a>
+		  </li>
+		 
+		</ul>
+		
+		 
+		</nav>
+	    </div>
+		
+		<div id="productos">
+		   <div id="cafeUno" style="display:none;">
+		    <h2>Cafe Arabigo</h2>
+			<p>Esta es una especie antigua que crece en zonas altas como montañas entre 700 y 2000 metros de altura,
+ 			   es de zonas intertropicales y se da en Latinoamérica, América Central y algunos países de África.</p>
+		   </div>
+		   <div id="cafeDos" style="display:none;">
+		       <h2>CAFÉ ROBUSTA</h2>
+                <p>Su cultivo se ha extendido en África, India, Indonesia, Madagascar, Brasil y Filipinas. 
+				   Este grano de café proviene de un arbusto que puede ser cultivado en terrenos con aptitudes diferentes
+				   y la concentración de la cafeína es mayor a la del café arábica lo que lo hace una bebida fuerte y amarga.</p>	
+           </div>				   
+		   <div id="cafeTres" style="display:none;">
+		    <h2>CAFÉ LIBÉRICA</h2>
+			<p>Su consumo no es muy extendido, proviene de Monrovia, en Liberia (África) el sabor de su grano es particularmente diferente.</p>
+		   </div>
+		   <div id="cafeCuatro" style="display:none;">
+		   <h2>CAFÉ EXCELSA</h2>
+		   <p>Es muy parecido al Libérica en el tamaño de su árbol y el tipo de sus hojas, pero sus granos son de calidad inferior lo que hace que su consumo sea residual.
+              Espero hayas podido conocer algo más sobre el café colombiano y sobre su condición para ser denominado como el mejor café del mundo.</p>
+		   </div>
+		  
+		
+		</div>
+	
+	
+	
+	</section>
+	<script type="text/javascript" src="js/caf.js"></script>
+	</body>
+
+
+</html>

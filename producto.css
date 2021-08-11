@@ -1,0 +1,72 @@
+body {
+	background:url(../imagenes/logo2.jpg)
+}
+
+#btn-prod ul{
+	margin:50px;
+	padding:0px;
+	list-style-type:none;
+}
+
+#btn-prod ul li a{
+	display:inline-block;
+	padding: 30px 35px;
+	text-decoration:none;
+	color:white;
+	font-size:x-large;
+	
+}
+
+#btn-prod ul li a{
+	background-color:black;
+	margin-bottom:100px;
+	
+}
+
+#btn-prod {
+	width:200px;
+	height:100px;
+	float:left;
+}
+
+#productos{
+	width:1000px;
+	margin:90px 600px;
+	padding:30px;
+	font-size:xxx-large;
+}
+
+#cafeUno{
+background-color:black;
+color:white;
+
+
+    
+   
+	
+}
+#cafeDos{
+background-color:black;
+color:white;
+	
+}
+#cafeTres{
+background-color:black;
+color:white;
+	
+}
+#cafeCuatro{
+background-color:black;
+color:white;
+	
+}
+
+
+#info h2{
+	text-align:center;
+	font-size:xxx-large;
+	font-style:italic;
+	color: white;
+	text-decoration:underline;
+}
+

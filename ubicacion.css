@@ -1,0 +1,37 @@
+body{
+	text-align:center;
+	background:url(../imagenes/logo2.jpg);
+}
+
+h2,h3{
+	text-decoration:underline;
+	color:white;
+	font-style:italic;
+	
+}
+
+h2{
+	font-size:xx-large;
+}
+
+h3{
+	font-size:x-large;
+}
+
+@media (min-width:1024px){
+	body{
+		
+	}
+}
+
+@media (min-width:768px){
+	body{
+		
+	}
+}
+
+@media (min-width:480px){
+	body{
+		
+	}
+}

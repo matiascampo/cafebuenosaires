@@ -1,0 +1,58 @@
+body{
+	background:url(../imagenes/logo2.jpg)
+	
+}
+.contenedor{
+	text-align:center;
+	display:flex;
+	justify-content:center;
+	flex-wrap: wrap;
+	
+}
+
+img{
+	width:100%;
+	max-width: 280px;
+	border-radius: 50%;
+    border: 7px solid #000000 ;
+
+	
+}
+
+article{
+	margin: 15px;
+	padding: 25px;
+}
+
+h3,h4,h5 {
+	text-align:center;
+	color:white;
+	font-style:italic;
+}
+
+h3,h5{
+	text-decoration:underline;
+	font-size:xx-large;
+}
+h4{
+	font-size:x-large;
+	text-decoration:underline;
+}
+
+@media (min-width:1024px){
+	body{
+		
+	}
+}
+
+@media (min-width:768px){
+	body{
+		
+	}
+}
+
+@media (min-width:480px){
+	body{
+		
+	}
+}
